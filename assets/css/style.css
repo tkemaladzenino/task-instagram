@@ -1,0 +1,149 @@
+@font-face {
+    font-family: Segoe UI;
+    src: url(../../fonts/Segoe\ UI.ttf)
+}
+
+@font-face {
+    font-family: Playfair Display;
+    src: url(../../fonts/PlayfairDisplay-Regular.ttf)
+}
+
+@font-face {
+    font-family: Roboto;
+    src: url(../../fonts/Roboto-Regular.ttf)
+}
+
+body {
+    overflow-x: hidden;
+}
+
+
+.rectangle-1 {
+    width: 225px;
+    height: 114px;
+
+    background: #EFEFEF;
+    border-radius: 111px;
+    padding-top: 38px;
+}
+
+.svg-plus {
+    margin-left: 40px;
+
+}
+
+.svg-2 {
+    margin-left: 60px;
+}
+
+.rectangle-2 {
+    width: 114px;
+    height: 747px;
+
+    background: #EFEFEF;
+    border-radius: 87px;
+}
+
+.Home {
+    padding-top: 70.48px;
+    padding-bottom: 95.34px;
+}
+
+.union {
+    padding-top: 101.59px;
+    padding-bottom: 103.43px;
+}
+
+.heart {
+    padding-bottom: 101.43px;
+}
+
+.human {
+    padding-bottom: 75px;
+}
+
+
+
+
+.carousel-control-next-icon {
+
+    width: 49px;
+    height: 97px;
+    background-color: #EFEFEF;
+    border-radius: 42px;
+
+}
+
+.frame-2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 97px;
+    height: 97px;
+    border: 3px solid transparent;
+    border-radius: 80px;
+    background-image: linear-gradient(white, white), linear-gradient(205.14deg, #D62977 11.68%, #ED8128 88.3%);
+
+    background-clip: content-box, border-box;
+}
+
+.circle-blue {
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    background: #0095F6;
+    bottom: 11px;
+    right: 5px;
+}
+
+.img-plus {
+    position: relative;
+}
+
+.plus {
+    width: 17px;
+    height: 17px;
+    color: #FFFFFF;
+    padding-left: 3px;
+}
+
+.inp-1 {
+    position: absolute;
+    bottom: -290px;
+    right: 82px;
+    background-color: transparent;
+
+    width: 361px;
+    height: 66px;
+    padding-left: 28px;
+
+    border: 3px solid #F8F8F8;
+    border-radius: 43px;
+    outline: none;
+}
+
+::placeholder {
+    font-family: Segoe UI;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 127.01%;
+    letter-spacing: -0.055em;
+    color: #F8F8F8;
+}
+
+textarea:focus,
+input:focus {
+    color: white;
+}
+
+
+
+.inp-svg-div svg {
+    position: absolute;
+    bottom: -450px;
+    right: 60px;
+}
