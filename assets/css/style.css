@@ -25,6 +25,7 @@ body {
     background: #EFEFEF;
     border-radius: 111px;
     padding-top: 38px;
+
 }
 
 .svg-plus {
@@ -62,17 +63,30 @@ body {
     padding-bottom: 75px;
 }
 
+.carousel-control-prev-icon {
 
+    width: 49px;
+    height: 97px;
+    background-color: #6d6060;
+    border-radius: 42px;
+
+    margin-left: 8px;
+
+}
 
 
 .carousel-control-next-icon {
 
     width: 49px;
     height: 97px;
-    background-color: #EFEFEF;
+    background-color: #6d6060;
     border-radius: 42px;
 
+    margin-right: -60px;
+
 }
+
+
 
 .frame-2 {
     display: flex;
@@ -82,6 +96,19 @@ body {
     height: 97px;
     border: 3px solid transparent;
     border-radius: 80px;
+    background-image: linear-gradient(white, white), linear-gradient(205.14deg, #D62977 11.68%, #ED8128 88.3%);
+
+    background-clip: content-box, border-box;
+}
+
+.frame-3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 62px;
+    height: 62px;
+    border: 2px solid transparent;
+    border-radius: 50px;
     background-image: linear-gradient(white, white), linear-gradient(205.14deg, #D62977 11.68%, #ED8128 88.3%);
 
     background-clip: content-box, border-box;
@@ -111,15 +138,11 @@ body {
 }
 
 .inp-1 {
-    position: absolute;
-    bottom: -290px;
-    right: 82px;
-    background-color: transparent;
 
-    width: 361px;
+    background-color: transparent;
+    width: 310px;
     height: 66px;
     padding-left: 28px;
-
     border: 3px solid #F8F8F8;
     border-radius: 43px;
     outline: none;
@@ -141,9 +164,276 @@ input:focus {
 }
 
 
+.text-martin-div p {
+    line-height: 0.6;
+}
+
+.martin-text {
+    font-family: Segoe UI;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 32px;
+    letter-spacing: 0.01em;
+    color: #000000;
+}
+
+.text-b p {
+    font-family: Segoe UI;
+    font-style: normal;
+    font-weight: 350;
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: 0.01em;
+
+    color: #000000;
+}
+
+.text-c p {
+    font-family: Segoe UI;
+    font-style: normal;
+    font-weight: 350;
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: 0.01em;
+
+    color: #000000;
+}
+
+.text-57 {
+    font-family: Segoe UI;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    letter-spacing: 0.01em;
+
+    color: #8D8D8D;
+}
+
+.read {
+    color: #9A9A9A;
+}
+
+.box-white {
+    width: 188px;
+    height: 46px;
+
+    background: #F8F8F8;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 78px;
+}
+
+.likes {
+    font-family: Segoe UI;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 20px;
+    color: #000000;
+}
+
+.text-eto-div {
+    font-family: Segoe UI;
+    font-style: normal;
+    font-weight: 350;
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: 0.01em;
+
+    color: #000000;
+}
+
+.text-light-three-div p {
+    font-family: Segoe UI;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 0.01em;
+
+    color: #8D8D8D;
+}
+
+.View-rep-div {
+    font-family: Segoe UI;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 0.01em;
+
+    color: #9A9A9A;
+}
+
+.all {
+    font-family: Segoe UI;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 0.01em;
+
+    color: #8D8D8D;
+}
+
+.rectangle-65 {
+    width: 229px;
+    height: 36px;
+
+    background: #F8F8F8;
+    border: 1px solid #9A9A9A;
+    backdrop-filter: blur(25px);
+
+    border-radius: 42px;
+}
+
+.rectangle-65 {
+    font-family: Segoe UI;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 16px;
+    text-align: center;
+    letter-spacing: 0.01em;
+
+    color: #9A9A9A;
+}
+
+.text-b {
+    font-family: Segoe UI;
+    font-style: normal;
+    font-weight: 350;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.01em;
+
+    color: #000000;
+}
+
+.inp-svg-div {
+    position: absolute;
+    top: 790px;
+    right: 90px;
+
+    z-index: 2;
+}
 
 .inp-svg-div svg {
+    margin-top: 12px;
+}
+
+
+@media screen and (max-width:1920px) {
+    .inp-svg-div {
+        right: 110px;
+
+        top: 880px !important;
+        width: 361px !important;
+
+    }
+}
+
+@media screen and (max-width:1536px) {
+    .inp-svg-div {
+        top: 760px !important;
+        right: 60px !important;
+    }
+}
+
+@media screen and (max-width:1440px) {
+    .inp-svg-div {
+        top: 690px !important;
+        right: 70px !important;
+    }
+}
+
+@media screen and (max-width:1400px) {
+    .inp-svg-div {
+        top: 660px !important;
+        right: 70px !important;
+    }
+}
+
+.martin_tips p {
+    font-family: Segoe UI;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: 0.01em;
+    color: #FFFFFF;
+}
+
+.martin_tips span {
+    font-family: Segoe UI;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    /* identical to box height */
+
+    letter-spacing: 0.01em;
+
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.indic-div {
+
+    gap: 5px;
+    right: 40px;
     position: absolute;
-    bottom: -450px;
-    right: 60px;
+    z-index: 2;
+    bottom: 800px;
+}
+
+@media screen and (max-width:1920px) {
+    .indic-div {
+        gap: 10px;
+        right: 80px;
+        bottom: 880px;
+    }
+}
+
+@media screen and (max-width:1536px) {
+    .indic-div {
+        right: 42px !important;
+        bottom: 770px !important;
+    }
+}
+
+@media screen and (max-width:1440px) {
+    .indic-div {
+        gap: 5px;
+        right: 40px;
+        position: absolute;
+        z-index: 2;
+        bottom: 790px !important;
+    }
+}
+
+@media screen and (max-width:1400px) {
+    .indic-div {
+        gap: 5px;
+        right: 40px;
+        position: absolute;
+        z-index: 2;
+        bottom: 800px !important;
+    }
+}
+
+.arrow-div {
+    width: 49px;
+    height: 97px;
+
+    background: #EFEFEF;
+    border-radius: 42px;
+}
+
+
+@media screen and (max-width:1920px) {
+    .arrow-one {
+
+        display: block !important;
+    }
 }
